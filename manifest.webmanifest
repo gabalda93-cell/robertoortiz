@@ -1,0 +1,17 @@
+{
+  "name": "ALÈ · Roberto · Mesociclo 1",
+  "short_name": "ALÈ Roberto",
+  "description": "ALÈ · Plan de entrenamiento personalizado · Mesociclo 1",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F2F1E8",
+  "theme_color": "#8C9367",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

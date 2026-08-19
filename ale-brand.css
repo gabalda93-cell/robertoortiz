@@ -1,0 +1,34 @@
+/* ALÈ · identitat visual de la marca. Paleta i acabats; sense logotip. */
+:root{
+  --bg:#F2F1E8!important;
+  --bg2:#E8E8D8!important;
+  --card:#FFFDF8!important;
+  --card2:#E6E5D4!important;
+  --line:rgba(67,72,50,.11)!important;
+  --line2:rgba(67,72,50,.20)!important;
+  --tx:#283025!important;
+  --tx2:#686D5A!important;
+  --tx3:#92967D!important;
+  --ac:#737D50!important;
+  --acbg:rgba(115,125,80,.12)!important;
+  --ac2:#9A7A49!important;
+  --ok:#617B4F!important;
+  --warn:#B58A3A!important;
+  --bad:#A75B56!important;
+  --fig:#343929!important;
+  --figdim:#A6AA8B!important;
+  --figbg:#EAEBDE!important;
+  --gear:#737D50!important;
+  --stage:#B9BCA1!important;
+  --arrow:#737D50!important;
+  --ghost:rgba(52,57,41,.22)!important;
+  --shadow:0 1px 2px rgba(57,65,43,.06),0 7px 22px rgba(57,65,43,.07)!important;
+}
+html,body{background:#F2F1E8!important;color:#283025}
+
+/* Acabats perquè tots els elements del motor heretin el llenguatge visual d'ALÈ. */
+.btn,.chip,.pill,.card,.banner,.figbox,.timer{transition:border-color .18s ease,background-color .18s ease,box-shadow .18s ease}
+.btn:not(.bad):focus-visible,.chip:focus-visible,.lnk:focus-visible,.x:focus-visible{
+  outline:3px solid rgba(115,125,80,.24)!important;
+  outline-offset:2px;
+}
